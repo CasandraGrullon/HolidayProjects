@@ -35,8 +35,7 @@ class ProjectDetailController: UIViewController {
     }
     navigationItem.title = project.projectName
     
-    // TODO: uncomment below when all outlets are connected to the ScrollView
-    /*
+
     firstNameLabel.text = project.firstName
     lastNameLabel.text = project.lastName
     descriiptionLabel.text = project.description
@@ -50,7 +49,6 @@ class ProjectDetailController: UIViewController {
         }
       }
     }
-    */
   }
   
   // TODO: add an action to open up a given Github page via SFSafariViewController
